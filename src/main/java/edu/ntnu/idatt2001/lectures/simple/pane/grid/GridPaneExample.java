@@ -3,13 +3,7 @@ package edu.ntnu.idatt2001.lectures.simple.pane.grid;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.layout.Border;
-import javafx.scene.layout.BorderStroke;
-import javafx.scene.layout.BorderStrokeStyle;
-import javafx.scene.layout.BorderWidths;
-import javafx.scene.layout.CornerRadii;
 import javafx.scene.layout.GridPane;
-import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 public class GridPaneExample extends Application {
@@ -17,9 +11,6 @@ public class GridPaneExample extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         GridPane rootNode = new GridPane();
-
-        rootNode.setBorder(new Border(
-                new BorderStroke(Color.RED, BorderStrokeStyle.SOLID, CornerRadii.EMPTY, BorderWidths.DEFAULT)));
 
         Button button1 = new Button("Button 1");
         Button button2 = new Button("Button 2");

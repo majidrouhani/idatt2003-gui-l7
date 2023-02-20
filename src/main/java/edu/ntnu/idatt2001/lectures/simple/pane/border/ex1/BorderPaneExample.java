@@ -1,16 +1,10 @@
-package edu.ntnu.idatt2001.lectures.simple.pane.border;
+package edu.ntnu.idatt2001.lectures.simple.pane.border.ex1;
 
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.layout.Border;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.BorderStroke;
-import javafx.scene.layout.BorderStrokeStyle;
-import javafx.scene.layout.BorderWidths;
-import javafx.scene.layout.CornerRadii;
-import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 public class BorderPaneExample extends Application {
@@ -18,9 +12,6 @@ public class BorderPaneExample extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         BorderPane rootNode = new BorderPane();
-
-        rootNode.setBorder(new Border(
-                new BorderStroke(Color.RED, BorderStrokeStyle.SOLID, CornerRadii.EMPTY, BorderWidths.DEFAULT)));
 
         Button button1 = new Button("Button 1");
         Button button2 = new Button("Button 2");
