@@ -1,10 +1,10 @@
 package edu.ntnu.idatt2001.lectures.simple.rect.sample3;
 
+import javafx.animation.Animation;
 import javafx.animation.FillTransition;
 import javafx.animation.ParallelTransition;
 import javafx.animation.RotateTransition;
 import javafx.animation.ScaleTransition;
-import javafx.animation.Timeline;
 import javafx.animation.TranslateTransition;
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -39,7 +39,7 @@ public class RectangleSample3 extends Application {
         scale.setToY(0.1);
 
         ParallelTransition transition = new ParallelTransition(r, translate, fill, rotate, scale);
-        transition.setCycleCount(Timeline.INDEFINITE);
+        transition.setCycleCount(Animation.INDEFINITE);
         transition.setAutoReverse(true);
         transition.play();
 
