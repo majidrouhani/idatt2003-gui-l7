@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2003.lectures.simple.pane.border.ex2;
+package edu.ntnu.idatt2003.lectures.basic;
 
 import javafx.application.Application;
 import javafx.geometry.Pos;
@@ -14,7 +14,7 @@ import javafx.scene.layout.FlowPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-public class BorderPaneExample extends Application {
+public class BorderPaneExample2 extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {

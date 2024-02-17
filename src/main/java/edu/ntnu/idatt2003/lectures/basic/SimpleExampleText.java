@@ -2,7 +2,7 @@
  * Non-modular from IDE
  */
 
-package edu.ntnu.idatt2003.lectures.simple.text;
+package edu.ntnu.idatt2003.lectures.basic;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -12,6 +12,9 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+/**
+ * This class represents a simple example of a JavaFX application that displays a text on a stage.
+ */
 public class SimpleExampleText extends Application {
 
   public static void main(String[] args) {
@@ -31,6 +34,5 @@ public class SimpleExampleText extends Application {
     primaryStage.setScene(new Scene(root, 300, 250));
     primaryStage.show();
   }
-
 
 }

@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2003.lectures.menu.sample;
+package edu.ntnu.idatt2003.lectures.menu.controller;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -28,7 +28,7 @@ import javafx.event.ActionEvent;
  * i.e. letting the MenuSample-class implement the EventHandler<ActionEvent> interface,
  * since centralized event handling is usually not very useful.
  */
-public class MenuSample extends Application
+public class MenuExample extends Application
 {
     // While the MenuSample-class plays the role of the View in the
     // MVC-pattern, the view must have a controller to work with,

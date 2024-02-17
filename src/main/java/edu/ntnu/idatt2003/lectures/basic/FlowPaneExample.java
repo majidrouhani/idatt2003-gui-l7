@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2003.lectures.simple.pane.flow;
+package edu.ntnu.idatt2003.lectures.basic;
 
 
 import javafx.application.Application;

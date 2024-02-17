@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2003.lectures.simple.rect.sample2;
+package edu.ntnu.idatt2003.lectures.basic;
 
 import javafx.application.Application;
 import javafx.scene.Group;

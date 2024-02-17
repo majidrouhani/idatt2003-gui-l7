@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2003.lectures.menu.sample;
+package edu.ntnu.idatt2003.lectures.menu.controller;
 
 /**
  * Represents the Controller-role of the Model-View-Controller pattern.
@@ -7,7 +7,7 @@ package edu.ntnu.idatt2003.lectures.menu.sample;
  */
 public class MenuController {
 
-  private MenuSample view;
+  private MenuExample view;
 
   /**
    * Creates an instance of the MenuController class.
@@ -17,7 +17,7 @@ public class MenuController {
    *
    * @param view the view-object (JavaFX GUI pane or Application)
    */
-  public MenuController(MenuSample view) {
+  public MenuController(MenuExample view) {
     this.view = view;
   }
 

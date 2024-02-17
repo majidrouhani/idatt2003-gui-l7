@@ -3,7 +3,7 @@
  * Run argument: --module-path "C:\git\javafx\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml
  */
 
-package edu.ntnu.idatt2003.lectures.simple.button;
+package edu.ntnu.idatt2003.lectures.basic;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

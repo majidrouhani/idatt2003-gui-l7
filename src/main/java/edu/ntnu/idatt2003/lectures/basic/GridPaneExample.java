@@ -1,17 +1,16 @@
-package edu.ntnu.idatt2003.lectures.simple.pane.border.ex1;
+package edu.ntnu.idatt2003.lectures.basic;
 
 import javafx.application.Application;
-import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-public class BorderPaneExample extends Application {
+public class GridPaneExample extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        BorderPane rootNode = new BorderPane();
+        GridPane rootNode = new GridPane();
 
         Button button1 = new Button("Button 1");
         Button button2 = new Button("Button 2");
@@ -19,16 +18,11 @@ public class BorderPaneExample extends Application {
         Button button4 = new Button("Button 4");
         Button button5 = new Button("Button 5");
 
-        BorderPane.setAlignment(button1, Pos.CENTER);
-        BorderPane.setAlignment(button2, Pos.CENTER);
-        BorderPane.setAlignment(button3, Pos.CENTER);
-        BorderPane.setAlignment(button4, Pos.CENTER);
-
-        rootNode.setTop(button1);
-        rootNode.setLeft(button2);
-        rootNode.setRight(button3);
-        rootNode.setBottom(button4);
-        rootNode.setCenter(button5);
+        rootNode.add(button1, 0,0);
+        rootNode.add(button2, 1,0);
+        rootNode.add(button3, 2,0);
+        rootNode.add(button4, 1,1);
+        rootNode.add(button5, 1,2);
 
         Scene scene = new Scene(rootNode, 500, 500);
         primaryStage.setTitle("JavaFX Scene");

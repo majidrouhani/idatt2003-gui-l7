@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2003.lectures.simple.rect.sample3;
+package edu.ntnu.idatt2003.lectures.basic;
 
 import javafx.animation.Animation;
 import javafx.animation.FillTransition;

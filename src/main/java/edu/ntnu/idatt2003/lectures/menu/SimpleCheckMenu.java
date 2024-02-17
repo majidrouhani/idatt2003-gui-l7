@@ -2,7 +2,7 @@
  * 
  * */
 
-package edu.ntnu.idatt2003.lectures.menu.check;
+package edu.ntnu.idatt2003.lectures.menu;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

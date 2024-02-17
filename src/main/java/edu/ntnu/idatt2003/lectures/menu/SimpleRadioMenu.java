@@ -1,23 +1,21 @@
-/* https://docs.oracle.com/javase/8/javafx/user-interface-tutorial/menu_controls.htm
- * Online help: https://openjfx.io/openjfx-docs/#maven
- * Non-modular from IDE
- * Run argument: --module-path "C:\git\javafx\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml
+/* https://www.tutorialspoint.com/how-to-create-checkmenuitem-in-javafx
  * 
- */
+ * */
 
-package edu.ntnu.idatt2003.lectures.menu.simple;
+package edu.ntnu.idatt2003.lectures.menu;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
+import javafx.scene.control.RadioMenuItem;
 import javafx.scene.control.SeparatorMenuItem;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class SimpleMenu extends Application {
+public class SimpleRadioMenu extends Application {
 
   public static void main(String[] args) {
     launch(args);
@@ -50,15 +48,11 @@ public class SimpleMenu extends Application {
 
     // The File-menu
     Menu menu = new Menu("File");
-    MenuItem fileOpen = new MenuItem("Open");
-    MenuItem filePrint = new MenuItem("Print");
-    filePrint.setDisable(true);
+    RadioMenuItem fileOpen = new RadioMenuItem("Open");
+    RadioMenuItem filePrint = new RadioMenuItem("Print");
     MenuItem fileExit = new MenuItem("Exit");
 
-    menu.getItems().add(fileOpen);
-    menu.getItems().add(filePrint);
-    menu.getItems().add(new SeparatorMenuItem());
-    menu.getItems().add(fileExit);
+    menu.getItems().addAll(fileOpen,filePrint,new SeparatorMenuItem(),fileExit);
     
     // The Edit-menu
     Menu menuEdit = new Menu("Edit");

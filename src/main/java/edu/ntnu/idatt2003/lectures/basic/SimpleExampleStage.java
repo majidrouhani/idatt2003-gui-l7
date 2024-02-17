@@ -2,7 +2,7 @@
  * Non-modular from IDE
  */
 
-package edu.ntnu.idatt2003.lectures.simple.stage;
+package edu.ntnu.idatt2003.lectures.basic;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
