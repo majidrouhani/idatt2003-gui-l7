@@ -48,7 +48,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <Main-Class>edu.ntnu.idatt2003.lectures.simple.text.SimpleExampleText</Main-Class>
+                            <Main-Class>edu.ntnu.idatt2003.lectures.basic.SimpleExampleText</Main-Class>
                         </manifest>
                     </archive>
                 </configuration>
