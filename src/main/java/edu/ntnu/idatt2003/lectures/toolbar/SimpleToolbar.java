@@ -87,7 +87,8 @@ public class SimpleToolbar extends Application {
     ToolBar toolBar = new ToolBar();
 
     // Save
-    Image saveImg = new Image(new FileInputStream(getClass().getClassLoader().getResource("icon/save.jpg").getFile()),16,16,true,true);
+    Image saveImg = new Image(getClass().getResourceAsStream("/icon/save.jpg"), 16, 16, true, true);
+
     Button btn = new Button("Save", new ImageView(saveImg));
     
     btn.setOnAction(new EventHandler<ActionEvent>() {
